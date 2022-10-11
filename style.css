@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FAF7FD;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #BB99DD;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BB99DD;
+}
+
+
+.cicle-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 213px;
+    width: 213px;
+    border-radius: 50%;
+    border: solid 2px #BB99DD;
+}
+.card-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(https://files.meiobit.com/wp-content/uploads/2020/01/20200131avatar_1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    transition: 0.5s ease;
+}
+
+.photo:hover {
+    box-shadow: 2px 2px 21px #BB99DD;
+    transform: rotateY(180deg);
+}
+
+.title {
+    margin: 15px 0px 25px ;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.link {
+    margin-bottom: 15px;
+    font-weight: bold;
+    width:400px;
+    border-radius: 4px;
+    border: 2px solid #BB99DD;
+    text-align: center;
+
+    transition: 0.2s ease;
+    padding: 10px 0px 10px 0px;
+}
+.link:hover {
+    box-shadow: 2px 2px 20px #BB99DD;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social-ic {
+    margin: 0px 22px;
+    height: 24px;
+    transition: 00.2s;
+}
+
+.social-ic:hover {
+    height: 35px;
+   
+}
