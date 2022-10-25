@@ -1,4 +1,4 @@
-# Social_links
+# Social_links page
 
 <a target="_blank" href="https://w3ssfs.github.io/Social_links/">VEJA A PAGE PRONTA</a>
 
